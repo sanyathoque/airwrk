@@ -66,9 +66,9 @@ function App() {
   };
   const changeval = (e) => {
     if (e.target.id==='name') { alldata[formid.id-1].name = e.target.value }
-    if (e.target.id==='username') alldata[formid.id-1].username = e.target.value
-    if (e.target.id==='email') alldata[formid.id-1].email = e.target.value
-    if (e.target.id==='address') alldata[formid.id-1].address = e.target.value
+    if (e.target.id==='username') { alldata[formid.id-1].username = e.target.value }
+    if (e.target.id==='email') { alldata[formid.id-1].email = e.target.value }
+    if (e.target.id==='address') { alldata[formid.id-1].address = e.target.value }
     setAlldata(alldata)
   }
   const handleClose = () => {
